@@ -1,0 +1,14 @@
+{
+  "meals": [
+    {
+      "title": "Cheeseburger",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.jlgDk53JXSUxv9Oxv2f7xgHaEq&pid=Api&P=0&w=261&h=164",
+      "id": 1
+    },
+    {
+      "title": "Burger",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.jlgDk53JXSUxv9Oxv2f7xgHaEq&pid=Api&P=0&w=261&h=164",
+      "id": 2
+    }
+  ]
+}

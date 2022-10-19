@@ -18,7 +18,6 @@ function Search() {
   return (
     <FormStyle onSubmit={submitHandler}>
       <div>
-        {/* <FaSearch></FaSearch> */}
         <input onChange={(e) => setInput(e.target.value)} type='text' value={input}/>
       </div>
     </FormStyle>
@@ -27,31 +26,38 @@ function Search() {
 
 const FormStyle = styled.form`
   margin: 0rem 20rem;
+  margin-top: 35px;
   position: relative;
   width: 100px;
   input{
-  //   border: none;
-       background: linear-gradint(35deg, #494949, #313131);
-  //   font-size: 1.5rem;
-  //   color: white;
-  //   padding: 1rem 3rem;
-  //   border: none;
-  //   border-radius: 1rem;
-  //   outline: none;
-  width: 250%;
+    position: relative;
+    right: px;
+     border: none;
+     background: #E4EBF5;
+     box-shadow: inset 0 0 5px #a0a5ac;
+     font-size: 1.5rem;
+     color: #5b0eeb;
+     padding: .5rem 3rem;
+     border: none;
+     border-radius: 1rem;
+     outline: none;
+  width: 600%;
+  margin-left: 9rem;
   }
 
   div {
+    margin-left: 240px;
     width: 100%;
     position: relative
   }
 
   svg {
-    position: absolute;
-    top: 50%;
-    left: 0%;
+    position: relative;
+    top: 42px;
+    left: 182px;
     transform: translate(100%, -50%);
-    color: white;
+    color: #5b0eeb;
+    z-index: 4;
   }
 `;
 

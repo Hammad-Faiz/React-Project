@@ -7,7 +7,7 @@ function Recipe() {
 
   let params = useParams();
   const [details, setDetails] = useState({});
-  const [activeTab, setActiveTab] = useState('instructions')
+  const [activeTab, setActiveTab] = useState("instructions")
 
   const fetchdetails = async () => {
     const data = await fetch(`https://api.spoonacular.com/recipes/${params.name}/information?apiKey=${process.env.REACT_APP_API_KEY}`)
@@ -34,15 +34,15 @@ function Recipe() {
           <div>
           <h3 dangerouslySetInnerHTML={{__html: details.summary}}></h3>
           <h3 dangerouslySetInnerHTML={{__html: details.instructions}}></h3>
-        </div>
-        )};
-        {activeTab === 'igredients' && (
+          </div>
+        )}
+        {activeTab === 'ingredients' && (
           <ul>
-          {details.extendedIngredients.map((ingredient) => {
+          {details.extendedIngredients.map((ingredient) => (
             <li key={ingredient.id}>{ingredient.original}</li>
-          })}
+          ))}
         </ul>
-        )};
+        )}
       </Info>
     </DetailWrapper>
   )
@@ -53,7 +53,11 @@ margin-top: 10;
 margin-bottom: 5rem;
 display: flex;
 .active{
-  background: linear-gradint(35deg, #494949, #313131);;
+  background: #e4ebf5;
+}
+
+img {
+  margin-left: 1rem;
 }
 
 h2 {
@@ -71,12 +75,14 @@ ul {
 `
 
 const Button = styled.button`
-  padding: 1rem 2rem;
-  color: #313131
-  background: White;
-  border: 2px solid black;
+  padding: 1rem 1rem;
+  color: #5b0eeb;
+  border-radius: 15px;
+  background: #e4ebf5;
+  box-shadow: inset 0 0 5px #a0a5ac;
+  border: none;
   margin-right: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 `
 const Info = styled.div` 
   margin-left: 10rem;

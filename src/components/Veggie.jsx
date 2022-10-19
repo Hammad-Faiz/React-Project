@@ -64,7 +64,7 @@ function Veggie() {
 
 
 const Wrapper = styled.div`
-  margin: 4rem 0rem;
+  // margin: 4rem 0rem;
 `;
 
 const Card = styled.div`
@@ -86,15 +86,16 @@ const Card = styled.div`
     left: 50%;
     bottom: 0px;
     transform: translate(-50%, 0%);
-    color: White;
+    color: Black;
     width: 100px%;
     text-align: center;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.5rem;
     height: 80%;
     display: flex;
     justify-content: center;
   }
+
 `;
 
 const Gradient = styled.div`

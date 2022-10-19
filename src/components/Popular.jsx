@@ -48,9 +48,9 @@ function Popular() {
                 <SplideSlide key={recipe.id}>
                   <Card>
                     <Link to={"/recipe/" + recipe.id}>
-                    <p>{recipe.title}</p>
-                    <img src={recipe.image} alt={recipe.title}/>
-                    <Gradient />
+                      <p>{recipe.title}</p>
+                      <img src={recipe.image} alt={recipe.title}/>
+                      <Gradient />
                     </Link>
                   </Card>
                 </SplideSlide>
@@ -85,11 +85,11 @@ const Card = styled.div`
     left: 50%;
     bottom: 0px;
     transform: translate(-50%, 0%);
-    color: White;
+    color: Black;
     width: 100px%;
     text-align: center;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 2rem;
     height: 80%;
     display: flex;
     justify-content: center;
