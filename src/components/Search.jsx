@@ -1,18 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useState } from 'react'
-import {useNavigate} from 'react-router-dom'
-// import {FaSearch} from 'react-icons/fa'
+import { useNavigate } from 'react-router-dom'
+import {FaSearch} from 'react-icons/fa'
 
 
 function Search() {
 
-  const [input, setInput] = useState('')
-  const navigat = useNavigate();
+  const [input, setInput] = useState("")
+  const navigate = useNavigate();
  
   const submitHandler = (e) => {
     e.preventDefault();
-    navigat('./searched/' + input)
+    navigate('/searched/' + input)
   }
 
   return (
@@ -29,6 +29,7 @@ const FormStyle = styled.form`
   margin-top: 35px;
   position: relative;
   width: 100px;
+
   input{
     position: relative;
     right: px;
