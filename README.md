@@ -13,10 +13,10 @@ Engineered user interface using Javascript, React and improved user experience w
 Communicated with multiple API endpoints from Spoonacular API to render cuisine data.
 ![cuisine](https://user-images.githubusercontent.com/105521583/198851140-4e50d382-1ebf-4826-a37e-5ae23b60083f.png)
 
-Implemented search bar.
+Implemented search bar
 ![cauliflower](https://user-images.githubusercontent.com/105521583/198851304-4c751659-ebea-400f-88ee-92c694e1f17d.png)
 
-Users can click any meal and recieve instructions and ingredients on making it.
+Users can click on any meal and receive instructions and ingredients for making it.
 ![instructions](https://user-images.githubusercontent.com/105521583/198851361-2d3d90a1-4840-4f38-906a-075a4509bbea.png)
 
 
