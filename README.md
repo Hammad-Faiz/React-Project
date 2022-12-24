@@ -16,7 +16,7 @@ Communicated with multiple API endpoints from Spoonacular API to render cuisine 
 Implemented search bar
 ![cauliflower](https://user-images.githubusercontent.com/105521583/198851304-4c751659-ebea-400f-88ee-92c694e1f17d.png)
 
-Users can click on any meal and receive instructions and ingredients for making it.
+Users can click on any meal and receive instructions and ingredients on how to make it.
 ![instructions](https://user-images.githubusercontent.com/105521583/198851361-2d3d90a1-4840-4f38-906a-075a4509bbea.png)
 
 
