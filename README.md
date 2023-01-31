@@ -21,8 +21,6 @@ Users can click on any meal and receive instructions and ingredients on how to m
 
 
 
-e
-
 
 
 
